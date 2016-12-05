@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_dialog_layout_design_user_input"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogTitle_usuario"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp" />
+
+    <EditText
+        android:id="@+id/userInputDialogName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:layout_marginLeft="2dp" />
+
+    <EditText
+        android:id="@+id/userInputDialogAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad"
+        android:inputType="text"
+        android:layout_marginLeft="2dp" />
+</LinearLayout>

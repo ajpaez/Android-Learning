@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DBFlowExample</string>
+
+    <string name="crud_user">CRUD User</string>
+
+
+    <string name="dialogTitle_usuario">Nuevo usuario:</string>
+    <string name="id_usuario">ID:</string>
+    <string name="nombre_usuario">Nombre:</string>
+    <string name="edad_usuario">Edad:</string>
+
+    <string name="filtrar">Filtrar:</string>
+    <string name="edad">Edad</string>
+
+</resources>
